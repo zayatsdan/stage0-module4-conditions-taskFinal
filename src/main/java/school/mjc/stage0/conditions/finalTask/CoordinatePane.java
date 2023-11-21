@@ -9,7 +9,7 @@ public class CoordinatePane {
            place=(x>0&&y>0)?
                  "first":
                  x>0&&y<0?
-                 "forth":
+                 "fourth":
                  x<0&&y<0?
                  "third":
                  "second";
