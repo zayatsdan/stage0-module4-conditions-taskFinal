@@ -9,10 +9,10 @@ public class CoordinatePane {
            place=(x>0&&y>0)?
                  "first":
                  x>0&&y<0?
-                 "second":
+                 "forth":
                  x<0&&y<0?
                  "third":
-                 "forth";
+                 "second";
        }
         System.out.println(place);
     }
